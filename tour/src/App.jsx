@@ -1,11 +1,27 @@
 import "./App.css";
-import { Header, Navbar } from "./components";
+import {
+  Banner,
+  Footer,
+  Header,
+  ImageGrid,
+  Navbar,
+  Seaction,
+  Service,
+  TopBanner,
+} from "./components";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Header />
+      <TopBanner />
+      <Service />
+      <Seaction header={"Top Destinations"} />
+      <Seaction header={"Top Hotel"} />
+      <ImageGrid />
+      <Banner />
+      <Footer />
     </div>
   );
 }

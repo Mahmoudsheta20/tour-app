@@ -29,7 +29,8 @@ const Navbar = () => {
       </div>
 
       <div className="left">
-        <p>Lng</p>
+        <button>Book Now</button>
+        {/* <p>Lng</p> */}
       </div>
     </nav>
   );
